@@ -3,7 +3,7 @@ import yt_dlp
 import os
 from datetime import datetime
 
-kedicik = "bot token gir"
+kedicik = print("token gir: ")
 ramowlf = telebot.TeleBot(kedicik)
 
 @ramowlf.message_handler(commands=['start'])
